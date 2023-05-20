@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arsha - Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Font-awsome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Jost", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white fs-2 fw-bold" href="#">ARSHA</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active mx-2"
+                style="color: #00b2c9"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-2" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-2" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-2" href="#">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white mx-2"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-2" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button
+              class="btn text-white rounded-pill mx-2 px-3"
+              style="border: 2px solid #00b2c9"
+              type="submit"
+            >
+              Get Started
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Header -->
+    <div class="mainHeader container-fluid">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex justify-content-center align-items-center"
+          >
+            <div>
+              <h1 class="display-5 fw-bold text-white">
+                Better Solutions For Your Business
+              </h1>
+              <p
+                class="lead text-muted fw-bold"
+                style="color: rgba(255, 255, 255, 0.6) !important"
+              >
+                We are team of talented designers making websites with Bootstrap
+              </p>
+              <div class="mt-5">
+                <button
+                  class="btn text-white rounded-pill px-4 py-2"
+                  style="background-color: #47b2e4"
+                  type="submit"
+                >
+                  Get Started
+                </button>
+                <a
+                  class="px-4 py-2 text-white text-decoration-none"
+                  type="submit"
+                >
+                  <img src="images/circle-play-regular.svg" width="33" alt="" />
+                  Watch Video
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mainHeaderBg"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Clients -->
+    <div class="container-fluid py-4" style="background-color: #f3f5fa">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-around align-items-center">
+              <img
+                class="clntImg"
+                src="images/clients/client-1.png"
+                width="90"
+                alt=""
+              />
+              <img
+                class="clntImg"
+                src="images/clients/client-2.png"
+                width="90"
+                alt=""
+              />
+              <img
+                class="clntImg"
+                src="images/clients/client-3.png"
+                width="90"
+                alt=""
+              />
+              <img
+                class="clntImg"
+                src="images/clients/client-4.png"
+                width="90"
+                alt=""
+              />
+              <img
+                class="clntImg"
+                src="images/clients/client-5.png"
+                width="90"
+                alt=""
+              />
+              <img
+                class="clntImg"
+                src="images/clients/client-6.png"
+                width="90"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+    <div class="container my-5">
+      <div class="row">
+        <center>
+          <h2 class="fw-bold py-3" style="color: #37517e">ABOUT US</h2>
+        </center>
+        <div class="col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p>
+            <i class="fa-solid fa-check-double" style="color: #47b2e4"></i>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat
+          </p>
+          <p>
+            <i class="fa-solid fa-check-double" style="color: #47b2e4"></i>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat
+          </p>
+          <p>
+            <i class="fa-solid fa-check-double" style="color: #47b2e4"></i>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+          </p>
+          <button
+            class="btn rounded-3 px-4"
+            style="border: 2px solid #00b2c9; color: #00b2c9"
+            type="submit"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FAQs -->
+    <div class="container-fluid py-5" style="background-color: #f3f5fa">
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <h1>
+                Eum ipsam laborum deleniti
+                <span class="fw-bold">velit pariatur architecto aut nihil</span>
+              </h1>
+              <p class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+                aute irure dolor in reprehenderit
+              </p>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                        >01</span
+                      >
+                      Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse fs-5"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                        >02</span
+                      >
+                      Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                        >03</span
+                      >
+                      Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/why-us.png" width="100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Progress-bar -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="images/skills.png" width="100%" alt="" />
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <h1 class="fw-bold" style="color: #37517e">
+              Voluptatem dignissimos provident quasi corporis voluptates
+            </h1>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="my-2">
+              <div class="d-flex justify-content-between">
+                <span class="fw-bold" style="color: #37517e">HTML</span>
+                <span class="fw-bold" style="color: #37517e">100%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="my-2">
+              <div class="d-flex justify-content-between">
+                <span class="fw-bold" style="color: #37517e">CSS</span>
+                <span class="fw-bold" style="color: #37517e">90%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="my-2">
+              <div class="d-flex justify-content-between">
+                <span class="fw-bold" style="color: #37517e">JavaScript</span>
+                <span class="fw-bold" style="color: #37517e">75%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="my-2">
+              <div class="d-flex justify-content-between">
+                <span class="fw-bold" style="color: #37517e">PhotoShop</span>
+                <span class="fw-bold" style="color: #37517e">55%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 55%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="container-fluid mt-5" style="background-color: #f3f5fa">
+      <div class="container py-5">
+        <center>
+          <h2 class="fw-bold py-3" style="color: #37517e">SERVICES</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </center>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="serviceCard card mt-4 border-0">
+              <div class="card-body py-5 px-3">
+                <i class="fa-solid fa-basketball fs-3"></i>
+                <h3 class="card-title my-3">Lorem Ipsum</h3>
+                <small class="fs-6">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="serviceCard card mt-4 border-0">
+              <div class="card-body py-5 px-3">
+                <i class="fa-solid fa-file-lines fs-3"></i>
+                <h3 class="card-title my-3">Sed ut perspici</h3>
+                <small class="fs-6">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="serviceCard card mt-4 border-0">
+              <div class="card-body py-5 px-3">
+                <i class="fa-solid fa-basketball fs-3"></i>
+                <h3 class="card-title my-3">Magni Dolores</h3>
+                <small class="fs-6">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="serviceCard card mt-4 border-0">
+              <div class="card-body py-5 px-3">
+                <i class="fa-solid fa-layer-group fs-3"></i>
+                <h3 class="card-title my-3">Nemo Enim</h3>
+                <small class="fs-6">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div class="container-fluid mt-5" style="background-color: #f3f5fa">
+      <div class="container py-5">
+        <center>
+          <h2 class="fw-bold py-3" style="color: #37517e">PORTFOLIO</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+          <div>
+            <button class="btn btn-primary px-4 mx-3 rounded-pill">All</button>
+            <button class="btn px-4 mx-3 rounded-pill">App</button>
+            <button class="btn px-4 mx-3 rounded-pill">Card</button>
+            <button class="btn px-4 mx-3 rounded-pill">Web</button>
+          </div>
+        </center>
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-1.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-6.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-2.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-5.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-9.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-3.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-4.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-7.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+            <div class="portfolioCard card border-0 mb-4">
+              <img
+                src="images/portfolio/portfolio-8.jpg"
+                class="card-img-top img-fluid object-fit-contain"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team -->
+    <div class="container-fluid mt-5" style="background-color: #f3f5fa">
+      <div class="container py-5">
+        <center>
+          <h2 class="fw-bold py-3" style="color: #37517e">TEAM</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </center>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="my-3">
+              <div class="teamCard card border-0">
+                <div class="card-body d-flex justify-content-start">
+                  <div>
+                    <img
+                      src="images/team/team-1.jpg"
+                      class="w-75 rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h4 style="color: #37517e" class="fw-bold">Walter White</h4>
+                    <span>Chief Executive Officer</span>
+                    <hr />
+                    <p>
+                      Explicabo voluptatem mollitia et repellat qui dolorum
+                      quasi
+                    </p>
+                    <div>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-twitter"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-linkedin"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my-3">
+              <div class="teamCard card border-0">
+                <div class="card-body d-flex justify-content-start">
+                  <div>
+                    <img
+                      src="images/team/team-3.jpg"
+                      class="w-75 rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h4 style="color: #37517e" class="fw-bold">Walter White</h4>
+                    <span>CTO</span>
+                    <hr />
+                    <p>
+                      Explicabo voluptatem mollitia et repellat qui dolorum
+                      quasi
+                    </p>
+                    <div>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-twitter"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-linkedin"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="my-3">
+              <div class="teamCard card border-0">
+                <div class="card-body d-flex justify-content-start">
+                  <div>
+                    <img
+                      src="images/team/team-2.jpg"
+                      class="w-75 rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h4 style="color: #37517e" class="fw-bold">Walter White</h4>
+                    <span>Product Manager</span>
+                    <hr />
+                    <p>
+                      Explicabo voluptatem mollitia et repellat qui dolorum
+                      quasi
+                    </p>
+                    <div>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-twitter"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-linkedin"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my-3">
+              <div class="teamCard card border-0">
+                <div class="card-body d-flex justify-content-start">
+                  <div>
+                    <img
+                      src="images/team/team-4.jpg"
+                      class="w-75 rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h4 style="color: #37517e" class="fw-bold">Walter White</h4>
+                    <span>Accountant</span>
+                    <hr />
+                    <p>
+                      Explicabo voluptatem mollitia et repellat qui dolorum
+                      quasi
+                    </p>
+                    <div>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-twitter"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </button>
+                      <button
+                        class="btn rounded-circle"
+                        style="background-color: #f3f5fa"
+                      >
+                        <i class="fa-brands fa-linkedin"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing -->
+    <div class="container-fluid">
+      <div class="container">
+        <center>
+          <h2 class="fw-bold py-3" style="color: #37517e">PRICING</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </center>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="priceBox card px-3 py-5 my-3">
+              <div class="card-body">
+                <h5 style="color: #37517e">Free Plan</h5>
+                <h6 style="color: #37517e" class="fs-1">$0</h6>
+                <p style="color: #47b2e4">per month</p>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Quam adipiscing vitae proin</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Nec feugiat nisl pretium</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Nulla at volutpat diam uteera</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-xmark text-muted"></i
+                  ></span>
+                  <p class="d-inline-block">
+                    <del>Pharetra massa massa ultricies</del>
+                  </p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-xmark text-muted"></i
+                  ></span>
+                  <p class="d-inline-block">
+                    <del>Massa ultricies mi quis hendrerit</del>
+                  </p>
+                </div>
+                <button
+                  class="btn mt-3 px-4 py-2 btn-outline-primary rounded-pill"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="priceBox card px-3 py-5 my-3"
+              style="border-top: 5px solid #00b2c9"
+            >
+              <div class="card-body">
+                <h5 style="color: #37517e">Business Plan</h5>
+                <h6 style="color: #37517e" class="fs-1">$0</h6>
+                <p style="color: #47b2e4">per month</p>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Quam adipiscing vitae proin</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Nec feugiat nisl pretium</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Nulla at volutpat diam uteera</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Pharetra massa massa ultricies</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">
+                    Massa ultricies mi quis hendrerit
+                  </p>
+                </div>
+                <button
+                  class="btn mt-3 px-4 py-2 btn-outline-primary rounded-pill"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="priceBox card px-3 py-5 my-3">
+              <div class="card-body">
+                <h5 style="color: #37517e">Premium Plan</h5>
+                <h6 style="color: #37517e" class="fs-1">$25</h6>
+                <p style="color: #47b2e4">per month</p>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Quam adipiscing vitae proin</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Nec feugiat nisl pretium</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Nulla at volutpat diam uteera</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">Pharetra massa massa ultricies</p>
+                </div>
+                <div>
+                  <span class="pe-3"
+                    ><i class="fa-solid fa-check" style="color: #42b25c"></i
+                  ></span>
+                  <p class="d-inline-block">
+                    Massa ultricies mi quis hendrerit
+                  </p>
+                </div>
+                <button
+                  class="btn mt-3 px-4 py-2 btn-outline-primary rounded-pill"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ's -->
+    <div class="container-fluid" style="background-color: #f3f5fa">
+      <div class="container">
+        <center>
+          <h2 class="fw-bold py-3" style="color: #37517e">PRICING</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </center>
+        <div class="row">
+          <div class="col">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-5"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                      >01</span
+                    >
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse fs-5"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-5"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                      >02</span
+                    >
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                      >03</span
+                    >
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                      >04</span
+                    >
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <span class="fw-bold fs-5 me-3" style="color: #00b2c9"
+                      >05</span
+                    >
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="container">
+      <center>
+        <h2 class="fw-bold py-3" style="color: #37517e">CONTACT</h2>
+        <p>
+          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+          aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+          quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+          fugiat sit in iste officiis commodi quidem hic quas.
+        </p>
+      </center>
+      <div class="row">
+        <div
+          class="contactCard col-lg-5 py-3 me-5 mb-5"
+          style="
+            border-top: 5px solid #37517e;
+            border-bottom: 5px solid #37517e;
+          "
+        >
+          <div class="d-flex align-items-center px-4 py-2">
+            <div class="px-3">
+              <button
+                class="btn rounded-circle"
+                style="background-color: #00b2c9"
+              >
+                <i class="fa-solid fa-location-dot"></i>
+              </button>
+            </div>
+            <div>
+              <h4 style="color: #37517e" class="fw-bold">Location:</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center px-4 py-2">
+            <div class="px-3">
+              <button
+                class="btn rounded-circle"
+                style="background-color: #00b2c9"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </button>
+            </div>
+            <div>
+              <h4 style="color: #37517e" class="fw-bold">E-mail:</h4>
+              <p>info@example.com</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center px-4 py-2">
+            <div class="px-3">
+              <button
+                class="btn rounded-circle"
+                style="background-color: #00b2c9"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+            <div>
+              <h4 style="color: #37517e" class="fw-bold">Call:</h4>
+              <p>+1 5589 55488 55s</p>
+            </div>
+          </div>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              frameborder="0"
+              style="border: 0; width: 100%; height: 290px"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div
+          class="contactCard col-lg-6 mb-5"
+          style="
+            border-top: 5px solid #37517e;
+            border-bottom: 5px solid #37517e;
+          "
+        >
+          <form class="row g-3 my-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Your Name</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Your E-mail</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="inputAddress" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="12"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Join our newsletter -->
+    <div class="container-fluid mb-4" style="background-color: #f3f5fa">
+      <div class="container">
+        <div class="row">
+          <div class="col py-5">
+            <center>
+              <h3 style="color: #37517e" class="fw-bold">
+                Join Our Newsletter
+              </h3>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
+              </p>
+              <div class="input-group mb-3 w-75 rounded-pill ps-4 border">
+                <input
+                  type="text"
+                  style="outline: none"
+                  class="form-control border-0"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn text-white rounded-pill px-4 py-2"
+                  style="background-color: #00b2c9"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6" style="height: 30vh !important">
+          <div>
+            <h3 style="color: #37517e" class="fw-bold">ARSHA</h3>
+            <p>
+              A108 Adam Street <br />
+              New York, NY 535022 <br />
+              United States
+            </p>
+            <p><span class="fw-bold">Phone:</span> +1 5589 55488 55</p>
+            <p><span class="fw-bold">E-mail:</span>info@example.com</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div>
+            <h6 style="color: #37517e" class="fw-bold">Useful Links</h6>
+            <ul class="list-unstyled">
+              <li class="py-3">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Home</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >About Us</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Services</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Terms of service</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div>
+            <h6 style="color: #37517e" class="fw-bold">Our Services</h6>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Web Design</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Web Development</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Product Management</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Marketing</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="index.html" class="text-decoration-none text-black"
+                  ><i
+                    class="fa-solid fa-chevron-right pe-2"
+                    style="color: #00b2c9"
+                  ></i
+                  >Graphic Designing</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 style="color: #37517e" class="fw-bold">Our Social Networks</h6>
+          <p class="py-3">
+            Cras fermentum odio eu feugiat lide par naso tierra videa magna
+            derita valies
+          </p>
+          <div>
+            <button
+              class="btn rounded-circle"
+              style="background-color: #47b2e4"
+            >
+              <i class="fa-brands fa-twitter text-white"></i>
+            </button>
+            <button
+              class="btn rounded-circle"
+              style="background-color: #47b2e4"
+            >
+              <i class="fa-brands fa-facebook text-white"></i>
+            </button>
+            <button
+              class="btn rounded-circle"
+              style="background-color: #47b2e4"
+            >
+              <i class="fa-brands fa-whatsapp text-white"></i>
+            </button>
+            <button
+              class="btn rounded-circle"
+              style="background-color: #47b2e4"
+            >
+              <i class="fa-brands fa-linkedin text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer 2.0 -->
+    <div class="container-fluid" style="background-color: #37517e">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-between text-white p-4">
+              <p>© Copyright <b>Arsha</b>. All Rights Reserved</p>
+              <p>
+                Designed by <span style="color: #00b2c9">BootstrapMade</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

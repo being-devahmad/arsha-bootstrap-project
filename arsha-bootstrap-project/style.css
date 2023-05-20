@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+nav {
+  background-color: #37517e !important;
+}
+.btn:hover {
+  background-color: #00b2c9 !important;
+  color: white !important;
+  transition: 0.5s;
+  border: 2px solid #00b2c9 !important;
+}
+.mainHeaderBg {
+  background-image: url("images/hero-img.png");
+  background-position: center;
+  background-size: contain;
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+.mainHeader {
+  background-color: #37517e !important;
+}
+.clntImg {
+  filter: grayscale(100);
+}
+.clntImg:hover {
+  filter: grayscale(0);
+  transition: 0.4s ease;
+  transform: scale(1.1);
+}
+.serviceCard,
+.priceBox,
+.contactCard {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.serviceCard:hover {
+  transform: translateY(-10px);
+  transition: 0.4s ease-out;
+  color: #47b2e4;
+}
+.teamCard:hover {
+  transform: translateY(-10px);
+  transition: 0.4s ease-out;
+}
+.portfolioCard:hover {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
